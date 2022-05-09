@@ -15,8 +15,8 @@ namespace ConsoleApp4DataTable2Xml
     {
         static void Main(string[] args)
         {
-            #region Create New Data List String Array(list)
-            List<string[]> listOfData = new List<string[]>
+            #region 產生新資料字串清單(theDataList)
+            List<string[]> theDataList = new List<string[]>
             {
                 new string[] { "1", "CID1", "VID1-1", "ZID1-2" },
                 new string[] { "2", "CID1", "VID1-2", "ZID1-3" },
@@ -31,22 +31,22 @@ namespace ConsoleApp4DataTable2Xml
             };
             #endregion
             Class4Event myEvent = new Class4Event();
-            #region Create New Data Table(dt) And Inport Data List String Array(listOfData)
+            #region 產生新資料表(dt)並且匯入資料字串清單(theDataList)
             string theTableName = "DemoDataTable";
             List<string> theColumnArray = new List<string> { "ID", "CID", "VID", "ZID" };
-            DataTable dt = myEvent.CreateDataTable(theTableName, theColumnArray, listOfData);
+            DataTable dt = myEvent.CreateDataTable(theTableName, theColumnArray, theDataList);
             #endregion
-            #region Read Data Table(dt) To Xml String(strXml)
+            #region 讀取資料表(dt)並轉成XML字串(strXml)
             string strOfElementGroupName = "Item";
             string strXml = myEvent.CreateXmlString(dt, strOfElementGroupName, theColumnArray);
             #endregion
-            #region Read Xml String(strXml) To Save Xml File
+            #region 讀取XML字串(strXml)並存成XML檔案
             string theTargetOfXml = @".\MyNewXml.xml";
             XmlDocument xd = new XmlDocument();
             xd.LoadXml(strXml);
             xd.Save(theTargetOfXml);
             #endregion
-            #region Try To Read Xml File
+            #region 嘗試讀取XML檔案
             DBTableSchema.XmlEvent xmlEvent = new DBTableSchema.XmlEvent();
             List<string> theXmlElementArray = new List<string> { "VID", "ZID" };
             List<string[]> ResultOfReadXml = xmlEvent.ReadSingleNodeOfXmlWithElementList(theTargetOfXml, "CID1", "Item", theXmlElementArray);

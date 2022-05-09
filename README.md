@@ -1,2 +1,11 @@
 # DataTable2Xml
 DataTable2Xml 從資料表到XML
+## ClassLibraryDataTable2Xml
+### 1.新增所需要的資料表
+### 2.從資料表轉成XML字串
+## ConsoleApp4DataTable2Xml
+### 1.產生新資料字串清單
+### 2.產生新資料表並且匯入資料字串清單
+### 3.讀取資料表並轉成XML字串
+### 4.讀取XML字串並存成XML檔案
+### 5.嘗試讀取XML檔案

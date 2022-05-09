@@ -9,30 +9,44 @@ namespace ClassLibraryDataTable2Xml
 {
     public class Class4Event
     {
-        public DataTable CreateDataTable(string theTableName, List<string> theColumnArray, List<string[]> listOfData)
+        /// <summary>
+        /// 新增所需要的資料表
+        /// </summary>
+        /// <param name="theTableName">資料表名稱</param>
+        /// <param name="theColumnList">資料表欄位清單</param>
+        /// <param name="theDataList">資料表資料清單</param>
+        /// <returns>回傳資料表</returns>
+        public DataTable CreateDataTable(string theTableName, List<string> theColumnList, List<string[]> theDataList)
         {
             DataTable dt = new DataTable
             {
                 TableName = theTableName
             };
-            for (int i = 0; i < theColumnArray.Count; i++)
+            for (int i = 0; i < theColumnList.Count; i++)
             {
-                dt.Columns.Add(theColumnArray[i]);
+                dt.Columns.Add(theColumnList[i]);
             }
             DataRow dr;
-            for (int i = 0; i < listOfData.Count; i++)
+            for (int i = 0; i < theDataList.Count; i++)
             {
                 dr = dt.NewRow();
-                for (int j = 0; j < theColumnArray.Count; j++)
+                for (int j = 0; j < theColumnList.Count; j++)
                 {
-                    dr[j] = listOfData[i][j];
+                    dr[j] = theDataList[i][j];
                 }
                 dt.Rows.Add(dr);
             }
             return dt;
         }
 
-        public string CreateXmlString(DataTable dt, string strOfElementGroupName, List<string> theColumnArray)
+        /// <summary>
+        /// 從資料表轉成XML字串
+        /// </summary>
+        /// <param name="dt">所需要的資料表</param>
+        /// <param name="strOfElementGroupName">XML元素集合名稱</param>
+        /// <param name="theColumnList">資料表欄位清單</param>
+        /// <returns>回傳XML字串</returns>
+        public string CreateXmlString(DataTable dt, string strOfElementGroupName, List<string> theColumnList)
         {
             string strXml = "";
             string strRowData = "";
@@ -58,13 +72,13 @@ namespace ClassLibraryDataTable2Xml
                     strRootEnd = "</" + strRowData + ">";
                     strContentInsideItem = "";
                 }
-                for (int j = 2; j < theColumnArray.Count; j++)
+                for (int j = 2; j < theColumnList.Count; j++)
                 {
                     if (j == 2)
                     {
                         strContentInsideItem = "";
                     }
-                    string strItemContent = theColumnArray[j] + " = '" + dt.Rows[i][j].ToString() + "'";
+                    string strItemContent = theColumnList[j] + " = '" + dt.Rows[i][j].ToString() + "'";
                     if (strContentInsideItem == "")
                     {
                         strContentInsideItem = "<"+ strOfElementGroupName + " " + strItemContent;
@@ -73,7 +87,7 @@ namespace ClassLibraryDataTable2Xml
                     {
                         strContentInsideItem += " " + strItemContent;
                     }
-                    if (j == theColumnArray.Count - 1)
+                    if (j == theColumnList.Count - 1)
                     {
                         strContentInsideItem += "/>";
                     }
