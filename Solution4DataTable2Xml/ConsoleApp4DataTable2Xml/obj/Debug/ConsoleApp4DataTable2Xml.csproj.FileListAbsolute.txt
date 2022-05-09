@@ -1,0 +1,13 @@
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\ConsoleApp4DataTable2Xml.exe.config
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\ConsoleApp4DataTable2Xml.exe
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\ConsoleApp4DataTable2Xml.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.csproj.AssemblyReference.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.csproj.SuggestedBindingRedirects.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.csproj.CoreCompileInputs.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.exe
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\ClassLibraryDataTable2Xml.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\ClassLibraryDataTable2Xml.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\obj\Debug\ConsoleApp4DataTable2Xml.csproj.CopyComplete
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\DBTableSchema.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ConsoleApp4DataTable2Xml\bin\Debug\DBTableSchema.pdb

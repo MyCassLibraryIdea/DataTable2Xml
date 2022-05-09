@@ -1,0 +1,16 @@
+<Root>
+  <CID1>
+    <Item VID="VID1-1" ZID="ZID1-2" />
+    <Item VID="VID1-2" ZID="ZID1-3" />
+    <Item VID="VID1-3" ZID="ZID1-4" />
+    <Item VID="VID1-4" ZID="ZID1-5" />
+    <Item VID="VID1-5" ZID="ZID1-6" />
+  </CID1>
+  <CID2>
+    <Item VID="VID2-1" ZID="ZID2-2" />
+    <Item VID="VID2-2" ZID="ZID2-3" />
+    <Item VID="VID2-3" ZID="ZID2-4" />
+    <Item VID="VID2-4" ZID="ZID2-5" />
+    <Item VID="VID2-5" ZID="ZID2-6" />
+  </CID2>
+</Root>

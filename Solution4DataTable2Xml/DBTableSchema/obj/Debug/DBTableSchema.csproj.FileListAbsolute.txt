@@ -1,0 +1,12 @@
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\bin\Debug\DBTableSchema.dll
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\bin\Debug\DBTableSchema.pdb
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\obj\Debug\DBTableSchema.csproj.AssemblyReference.cache
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\obj\Debug\DBTableSchema.csproj.CoreCompileInputs.cache
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\obj\Debug\DBTableSchema.dll
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\OHTC_Client\DBTableSchema\obj\Debug\DBTableSchema.pdb
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\bin\Debug\DBTableSchema.dll
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\bin\Debug\DBTableSchema.pdb
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.csproj.AssemblyReference.cache
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.csproj.CoreCompileInputs.cache
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.dll
+C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.pdb

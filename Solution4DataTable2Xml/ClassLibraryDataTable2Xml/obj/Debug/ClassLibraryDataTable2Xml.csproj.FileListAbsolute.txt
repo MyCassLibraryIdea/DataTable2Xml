@@ -1,0 +1,6 @@
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\bin\Debug\ClassLibraryDataTable2Xml.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\bin\Debug\ClassLibraryDataTable2Xml.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\obj\Debug\ClassLibraryDataTable2Xml.csproj.AssemblyReference.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\obj\Debug\ClassLibraryDataTable2Xml.csproj.CoreCompileInputs.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\obj\Debug\ClassLibraryDataTable2Xml.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\ClassLibraryDataTable2Xml\obj\Debug\ClassLibraryDataTable2Xml.pdb

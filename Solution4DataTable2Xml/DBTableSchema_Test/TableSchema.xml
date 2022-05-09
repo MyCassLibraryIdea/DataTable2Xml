@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tables>
+    <Table001>
+        <!--void CreateTableSchema() from frmMainScreen-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Sequence" DataPropertyName="COMMAND_SEQ" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="COMMAND_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OhtId" DataPropertyName="OHT_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierState" DataPropertyName="FOUP_STATUS" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="TransferState" DataPropertyName="COMMAND_STATUS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PresentPosition" DataPropertyName="LOCATION_PRESENT" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Source" DataPropertyName="COMMAND_SOURCE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="SourceLoc" DataPropertyName="SOURCE_LOC" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Destination" DataPropertyName="COMMAND_DESTINATION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="DestinationLoc" DataPropertyName="DESTINATION_LOC" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Priority" DataPropertyName="COMMAND_PRIORITY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="MCSpriority" DataPropertyName="MCS_PRIORITY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CreateTime" DataPropertyName="CREATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ExecutedTime" DataPropertyName="EXECUTE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table001>
+    <Table002>
+        <!--void CreateTableSchema() from frmTransferCommand-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Sequence" DataPropertyName="COMMAND_SEQ" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OHT Id" DataPropertyName="OHT_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="COMMAND_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupState" DataPropertyName="FOUP_STATUS" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="TransferState" DataPropertyName="COMMAND_STATUS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Priority" DataPropertyName="COMMAND_PRIORITY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="MCSpriority" DataPropertyName="MCS_PRIORITY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CreateTime" DataPropertyName="CREATE_TIME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ExecutedTime" DataPropertyName="EXECUTE_TIME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PresentPosition" DataPropertyName="LOCATION_PRESENT" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Source" DataPropertyName="COMMAND_SOURCE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Destination" DataPropertyName="COMMAND_DESTINATION" Visible="true" ColumnType="String" />
+    </Table002>
+    <Table003>
+        <!--void CreateTableSchema() from frmErrorLog-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Time" DataPropertyName="OCCUR_RELEASE" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UnitId" DataPropertyName="EQP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ErrorCode" DataPropertyName="ERROR_CODE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Message" DataPropertyName="ERROR_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OccurOrRelease" DataPropertyName="ERROR_TYPE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Location" DataPropertyName="EQP_LOCATION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table003>
+    <Table004>
+        <!--void CreateTableSchema() from frmMCSLog-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Time" DataPropertyName="UPDATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Message" DataPropertyName="TRANSFER" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="SxFx" DataPropertyName="MCS_SF" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Description" DataPropertyName="DESCRIPTION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="COMMAND_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Content" DataPropertyName="MCS_MESSAGE" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table004>
+    <Table005>
+        <!--void CreateTableSchema() from frmPLCLog-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Time" DataPropertyName="UPDATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Message" DataPropertyName="CATEGORY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="EQP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="MESSAGE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table005>
+    <Table006>
+        <!--void CreateTableSchema() from frmTransferLog-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserId" DataPropertyName="USER_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CreateTime" DataPropertyName="CREATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Category" DataPropertyName="CATEGORY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="COMMAND_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OhtId" DataPropertyName="OHT_ID" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OhtName" DataPropertyName="OHT_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Source" DataPropertyName="COMMAND_SOURCE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="SourceLoc" DataPropertyName="SOURCE_LOC" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Destination" DataPropertyName="COMMAND_DESTINATION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="DestinationLoc" DataPropertyName="DESTINATION_LOC" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Message" DataPropertyName="MESSAGE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="StartTime" DataPropertyName="START_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="EndTime" DataPropertyName="END_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table006>
+    <Table007>
+        <!--void CreateTableSchema() from frmUserOperationLog-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Time" DataPropertyName="UPDATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserId" DataPropertyName="USER_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserName" DataPropertyName="ROLE_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="GroupId" DataPropertyName="FUNCTION_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FunctionName" DataPropertyName="FUNCTION_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Operation" DataPropertyName="USER_OPERATION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table007>
+    <Table008>
+        <!--void CreateTableSchema() from frmCheckUserGroupData-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FunctionId" DataPropertyName="FUNCTION_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FunctionName" DataPropertyName="FUNCTION_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Enable" DataPropertyName="FUNCTION_ENABLE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Permission" DataPropertyName="FUNCTION_RIGHTS" Visible="false" ColumnType="String" />
+    </Table008>
+    <Table009>
+        <!--void CreateTableSchema() from frmDownTimeStatistics-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CreateTime" DataPropertyName="CREATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UnitId" DataPropertyName="EQP_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ErrorCode" DataPropertyName="ERROR_CODE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ErrorMessage" DataPropertyName="ERROR_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="OccurTime" DataPropertyName="START_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ReleaseTime" DataPropertyName="END_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="DownTime" DataPropertyName="ELAPSED_TIME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table009>
+    <Table010>
+        <!--void CreateTableSchema() from frmInventoryCheck-->
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Selected" DataPropertyName="SELECTED" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ShelfNo" DataPropertyName="SHELF_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneNo" DataPropertyName="ZONE_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneName" DataPropertyName="ZONE_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="StorageTime" DataPropertyName="STORAGE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ShelfStatus" DataPropertyName="SHELF_STATUS" Visible= "true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupStatus" DataPropertyName="FOUP_STATUS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Prohibited" DataPropertyName="SHELF_PROHIBITED" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table010>
+    <Table011>
+        <!--void CreateTableSchema() from frmPortSetting-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PortName" DataPropertyName="PORT_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PortNo" DataPropertyName="PORT_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PortType" DataPropertyName="PORT_TYPE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Status" DataPropertyName="PORT_SHELFS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Enable" DataPropertyName= "PORT_ENABLE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="LdRq" DataPropertyName="PORT_LDRQ" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="UdRq" DataPropertyName="PORT_UDRQ" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneType" DataPropertyName="PORT_ZONE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="PriorityIncrement" DataPropertyName="PORT_PRIORITY" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="AutoInZone" DataPropertyName="AUTO_IN_ZONE" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="LocationNo" DataPropertyName="PORT_LOCATION" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="IsEquipmentPort" DataPropertyName="IS_EQP" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table011>
+    <Table012>
+        <!--void CreateTableSchema() from frmShelfDataSetting-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ShelfNo" DataPropertyName="SHELF_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneNo" DataPropertyName="ZONE_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneName" DataPropertyName="ZONE_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="StorageTime" DataPropertyName="STORAGE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ShelfStatus" DataPropertyName="SHELF_STATUS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierStatus" DataPropertyName="FOUP_STATUS" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ProhibitedReason" DataPropertyName="SHELF_PROHIBITED_NOTE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Prohibited" DataPropertyName="SHELF_PROHIBITED" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneType" DataPropertyName="ZONE_TYPE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table012>
+    <Table013>
+        <!--void CreateTableSchema() from frmZoneMaster-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneName" DataPropertyName="ZONE_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Description" DataPropertyName="ZONE_NAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneType" DataPropertyName="ZONE_TYPE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewCheckBoxColumn" Name="Enable" DataPropertyName="ZONE_ENABLE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Color" DataPropertyName="ZONE_COLOR" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneColor" DataPropertyName="" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table013>
+    <Table014>
+        <!--void CreateTableSchema() from frmUserSetting-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserId" DataPropertyName="ADMIN_ACCOUNT" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserName" DataPropertyName="ADMIN_EMPLNAME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="UserGroup" DataPropertyName="ADMIN_GROUP" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Password" DataPropertyName="ADMIN_PASSWORD" Visible="false" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table014>
+    <Table015>
+        <!--void CreateTableSchema() from frmAverageTransferTime-->
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CreateTime" DataPropertyName="CREATE_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Source" DataPropertyName="COMMAND_SOURCE" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="Destination" DataPropertyName="COMMAND_DESTINATION" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="FoupId" DataPropertyName="FOUP_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="CommandId" DataPropertyName="COMMAND_ID" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="StartTime" DataPropertyName="START_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="EndTime" DataPropertyName="END_TIME" Visible="true" ColumnType="DateTime" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="ElapsedTime" DataPropertyName="ELAPSED_TIME" Visible="true" ColumnType="String" />
+        <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+    </Table015>
+    <Table016>
+        <!--void CreateTableSchema() from frmCycleTest-->
+        <Part0>
+            <Item ColumnName="DataGridViewCheckBoxColumn" Name="Sel." DataPropertyName="colSelUse" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="LocationId" DataPropertyName="colZoneID" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="ZoneName" DataPropertyName="colZoneName" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierId" DataPropertyName="colFoupID" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierState" DataPropertyName="colFoupStatus" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+        </Part0>
+        <Part1>
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="CarrierId" DataPropertyName="CarrierId" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewCheckBoxColumn" Name="Sel." DataPropertyName="SelUse" Visible="true" ColumnType="Boolean" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="SourceEQP" DataPropertyName="SourceEQP" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="SourceNode" DataPropertyName="SourceNode" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="DestinationEQP" DataPropertyName="DestinationEQP" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="DestinationNode" DataPropertyName="DestinationNode" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+        </Part1>
+    </Table016>
+    <Table017>
+        <!--void CreateTableSchema() from frmAuthoritySetting-->
+        <Part0>
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="GroupId" DataPropertyName="GROUP_ID" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="Description" DataPropertyName="GROUP_NAME" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="" DataPropertyName="SPACES" Visible="true" ColumnType="String" />
+        </Part0>
+        <Part1>
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="FunctionId" DataPropertyName="FUNCTION_ID" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="FunctionName" DataPropertyName="FUNCTION_NAME" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewCheckBoxColumn" Name="Enable" DataPropertyName="FUNCTION_ENABLE" Visible="true" ColumnType="String" />
+            <Item ColumnName="DataGridViewTextBoxColumn" Name="Permission" DataPropertyName="FUNCTION_RIGHTS" Visible="false" ColumnType="String" />
+        </Part1>
+    </Table017>
+</Tables>
