@@ -10,3 +10,9 @@ C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\D
 C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.csproj.CoreCompileInputs.cache
 C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.dll
 C:\Users\udoug\Downloads\OHTC_20191219_2100_w_ClassDiagram\TG_Upgrade_20220426\DBTableSchema\obj\Debug\DBTableSchema.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\bin\Debug\DBTableSchema.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\bin\Debug\DBTableSchema.pdb
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\obj\Debug\DBTableSchema.csproj.AssemblyReference.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\obj\Debug\DBTableSchema.csproj.CoreCompileInputs.cache
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\obj\Debug\DBTableSchema.dll
+C:\Users\udoug\OneDrive\文件\GitHub\DataTable2Xml\Solution4DataTable2Xml\DBTableSchema\obj\Debug\DBTableSchema.pdb
